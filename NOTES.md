@@ -1,4 +1,4 @@
-#### Starting our server
+### Starting our server
 
 In our terminal we type
 
@@ -6,7 +6,7 @@ npm run dev
 
 This will then open a browser on our computer at http://localhost:3000
 
-#### First Component
+### First Component
 
 We can define our page using either a function declaration or a function expression.
 You will see both been used. The key is to choose one and stick to it throughout your app.
@@ -30,6 +30,14 @@ const FirstComponent = () => {
 };
 
 export default FirstComponent;
+```
+
+We can also use the following to define our components, but not in a page.jsx file where we MUST use export default
+
+```js
+export const FirstComponent = () => {
+  return <h1>About</h1>;
+};
 ```
 
 - The component name should start with a capital letter
