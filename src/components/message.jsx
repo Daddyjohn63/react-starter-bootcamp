@@ -1,5 +1,5 @@
 const Message = () => {
-  return <h2>This is a very important message</h2>;
+  return <p>This is a very important message for Jane</p>;
 };
 
 export default Message;
